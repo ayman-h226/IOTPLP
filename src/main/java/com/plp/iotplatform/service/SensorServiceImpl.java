@@ -8,11 +8,15 @@ import com.plp.iotplatform.model.entity.Sensor;
 import com.plp.iotplatform.repository.HubRepository;
 import com.plp.iotplatform.repository.SensorRepository;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import java.time.Instant;
 import java.util.List;
 import java.util.Optional;
 
+@Slf4j
 @Service
 @RequiredArgsConstructor
 public class SensorServiceImpl implements SensorService {
@@ -88,4 +92,21 @@ public class SensorServiceImpl implements SensorService {
         // Plus tard: notifier le hub, révoquer les ACLs MQTT
         sensorRepository.deleteById(sensorId);
     }
+
+
+
+    @Override
+    @Transactional // Important pour les opérations d'écriture
+    public void updateSensorLastDataReceived(String globalSensorId, Instant receptionTime) {
+        Optional<Sensor> sensorOpt = sensorRepository.findById(globalSensorId); // Trouve par PK
+        if (sensorOpt.isPresent()) {
+            Sensor sensor = sensorOpt.get();
+            sensor.setLastDataReceivedAt(receptionTime);
+            sensorRepository.save(sensor);
+            // log.debug("Updated lastDataReceivedAt for sensorId: {}", globalSensorId); // Optionnel
+        } else {
+            log.warn("Attempted to update lastDataReceivedAt for non-existent sensorId: {}", globalSensorId);
+        }
+    }
+
 }

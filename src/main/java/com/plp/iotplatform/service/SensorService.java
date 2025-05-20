@@ -2,6 +2,8 @@ package com.plp.iotplatform.service;
 
 import com.plp.iotplatform.DTO.SensorCreationRequestDto;
 import com.plp.iotplatform.model.entity.Sensor;
+
+import java.time.Instant;
 import java.util.List;
 import java.util.Optional;
 
@@ -11,6 +13,5 @@ public interface SensorService {
     Optional<Sensor> getSensorById(String sensorId);
     Sensor updateSensor(String sensorId, SensorCreationRequestDto request);
     void deleteSensor(String sensorId);
-    // Plus tard: validateSensor, deactivateSensor
-}
+    void updateSensorLastDataReceived(String globalSensorId, Instant receptionTime);}
 
