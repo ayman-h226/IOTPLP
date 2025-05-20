@@ -1,0 +1,389 @@
+1746612220: mosquitto version 2.0.21 starting
+1746612220: Config loaded from /mosquitto/config/mosquitto.conf.
+1746612220: Opening ipv4 listen socket on port 1883.
+1746612220: Opening ipv6 listen socket on port 1883.
+1746612220: mosquitto version 2.0.21 running
+1746612221: New connection from 172.19.0.1:42618 on port 1883.
+1746612221: New client connected from 172.19.0.1:42618 as mqtt-explorer-e07af06d (p2, c1, k60).
+1746612221: No will message specified.
+1746612221: Sending CONNACK to mqtt-explorer-e07af06d (0, 0)
+1746612281: Received PINGREQ from mqtt-explorer-e07af06d
+1746612281: Sending PINGRESP to mqtt-explorer-e07af06d
+1746612341: Received PINGREQ from mqtt-explorer-e07af06d
+1746612341: Sending PINGRESP to mqtt-explorer-e07af06d
+1746612401: Received PINGREQ from mqtt-explorer-e07af06d
+1746612401: Sending PINGRESP to mqtt-explorer-e07af06d
+1746612461: Received PINGREQ from mqtt-explorer-e07af06d
+1746612461: Sending PINGRESP to mqtt-explorer-e07af06d
+1746612521: Received PINGREQ from mqtt-explorer-e07af06d
+1746612521: Sending PINGRESP to mqtt-explorer-e07af06d
+1746613138: Client mqtt-explorer-e07af06d has exceeded timeout, disconnecting.
+1746613142: New connection from 172.19.0.1:49574 on port 1883.
+1746613142: New client connected from 172.19.0.1:49574 as mqtt-explorer-e07af06d (p2, c1, k60).
+1746613142: No will message specified.
+1746613142: Sending CONNACK to mqtt-explorer-e07af06d (0, 0)
+1746619825: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1746619825: Client mqtt-explorer-e07af06d has exceeded timeout, disconnecting.
+1746619828: New connection from 172.19.0.1:52184 on port 1883.
+1746619828: New client connected from 172.19.0.1:52184 as mqtt-explorer-e07af06d (p2, c1, k60).
+1746619828: No will message specified.
+1746619828: Sending CONNACK to mqtt-explorer-e07af06d (0, 0)
+1746619888: Received PINGREQ from mqtt-explorer-e07af06d
+1746619888: Sending PINGRESP to mqtt-explorer-e07af06d
+1746619948: Received PINGREQ from mqtt-explorer-e07af06d
+1746619948: Sending PINGRESP to mqtt-explorer-e07af06d
+1746620008: Received PINGREQ from mqtt-explorer-e07af06d
+1746620008: Sending PINGRESP to mqtt-explorer-e07af06d
+1746620068: Received PINGREQ from mqtt-explorer-e07af06d
+1746620068: Sending PINGRESP to mqtt-explorer-e07af06d
+1746620128: Received PINGREQ from mqtt-explorer-e07af06d
+1746620128: Sending PINGRESP to mqtt-explorer-e07af06d
+1746620188: Received PINGREQ from mqtt-explorer-e07af06d
+1746620188: Sending PINGRESP to mqtt-explorer-e07af06d
+1746620248: Received PINGREQ from mqtt-explorer-e07af06d
+1746620248: Sending PINGRESP to mqtt-explorer-e07af06d
+1746620308: Received PINGREQ from mqtt-explorer-e07af06d
+1746620308: Sending PINGRESP to mqtt-explorer-e07af06d
+1746620369: Received PINGREQ from mqtt-explorer-e07af06d
+1746620369: Sending PINGRESP to mqtt-explorer-e07af06d
+1746620428: Received PINGREQ from mqtt-explorer-e07af06d
+1746620428: Sending PINGRESP to mqtt-explorer-e07af06d
+1746620489: Received PINGREQ from mqtt-explorer-e07af06d
+1746620489: Sending PINGRESP to mqtt-explorer-e07af06d
+1746620549: Received PINGREQ from mqtt-explorer-e07af06d
+1746620549: Sending PINGRESP to mqtt-explorer-e07af06d
+1746620609: Received PINGREQ from mqtt-explorer-e07af06d
+1746620609: Sending PINGRESP to mqtt-explorer-e07af06d
+1746620669: Received PINGREQ from mqtt-explorer-e07af06d
+1746620669: Sending PINGRESP to mqtt-explorer-e07af06d
+1746620729: Received PINGREQ from mqtt-explorer-e07af06d
+1746620729: Sending PINGRESP to mqtt-explorer-e07af06d
+1746620789: Received PINGREQ from mqtt-explorer-e07af06d
+1746620789: Sending PINGRESP to mqtt-explorer-e07af06d
+1746620849: Received PINGREQ from mqtt-explorer-e07af06d
+1746620849: Sending PINGRESP to mqtt-explorer-e07af06d
+1746620909: Received PINGREQ from mqtt-explorer-e07af06d
+1746620909: Sending PINGRESP to mqtt-explorer-e07af06d
+1746620969: Received PINGREQ from mqtt-explorer-e07af06d
+1746620969: Sending PINGRESP to mqtt-explorer-e07af06d
+1746621029: Received PINGREQ from mqtt-explorer-e07af06d
+1746621029: Sending PINGRESP to mqtt-explorer-e07af06d
+1746621089: Received PINGREQ from mqtt-explorer-e07af06d
+1746621089: Sending PINGRESP to mqtt-explorer-e07af06d
+1746621149: Received PINGREQ from mqtt-explorer-e07af06d
+1746621149: Sending PINGRESP to mqtt-explorer-e07af06d
+1746621203: mosquitto version 2.0.21 terminating
+1746621203: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1746623730: mosquitto version 2.0.21 starting
+1746623730: Config loaded from /mosquitto/config/mosquitto.conf.
+1746623730: Opening ipv4 listen socket on port 1883.
+1746623730: Opening ipv6 listen socket on port 1883.
+1746623730: mosquitto version 2.0.21 running
+1746623731: New connection from 172.20.0.1:35086 on port 1883.
+1746623731: New client connected from 172.20.0.1:35086 as mqtt-explorer-e07af06d (p2, c1, k60).
+1746623731: No will message specified.
+1746623731: Sending CONNACK to mqtt-explorer-e07af06d (0, 0)
+1746623791: Received PINGREQ from mqtt-explorer-e07af06d
+1746623791: Sending PINGRESP to mqtt-explorer-e07af06d
+1746623851: Received PINGREQ from mqtt-explorer-e07af06d
+1746623851: Sending PINGRESP to mqtt-explorer-e07af06d
+1746623911: Received PINGREQ from mqtt-explorer-e07af06d
+1746623911: Sending PINGRESP to mqtt-explorer-e07af06d
+1746623971: Received PINGREQ from mqtt-explorer-e07af06d
+1746623971: Sending PINGRESP to mqtt-explorer-e07af06d
+1746624031: Received PINGREQ from mqtt-explorer-e07af06d
+1746624031: Sending PINGRESP to mqtt-explorer-e07af06d
+1746624091: Received PINGREQ from mqtt-explorer-e07af06d
+1746624091: Sending PINGRESP to mqtt-explorer-e07af06d
+1746624151: Received PINGREQ from mqtt-explorer-e07af06d
+1746624151: Sending PINGRESP to mqtt-explorer-e07af06d
+1746624211: Received PINGREQ from mqtt-explorer-e07af06d
+1746624211: Sending PINGRESP to mqtt-explorer-e07af06d
+1746624271: Received PINGREQ from mqtt-explorer-e07af06d
+1746624271: Sending PINGRESP to mqtt-explorer-e07af06d
+1746624331: Received PINGREQ from mqtt-explorer-e07af06d
+1746624331: Sending PINGRESP to mqtt-explorer-e07af06d
+1746624391: Received PINGREQ from mqtt-explorer-e07af06d
+1746624391: Sending PINGRESP to mqtt-explorer-e07af06d
+1746624451: Received PINGREQ from mqtt-explorer-e07af06d
+1746624451: Sending PINGRESP to mqtt-explorer-e07af06d
+1746624511: Received PINGREQ from mqtt-explorer-e07af06d
+1746624511: Sending PINGRESP to mqtt-explorer-e07af06d
+1746624571: Received PINGREQ from mqtt-explorer-e07af06d
+1746624571: Sending PINGRESP to mqtt-explorer-e07af06d
+1746624577: mosquitto version 2.0.21 terminating
+1746624577: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1746625180: mosquitto version 2.0.21 starting
+1746625180: Config loaded from /mosquitto/config/mosquitto.conf.
+1746625180: Opening ipv4 listen socket on port 1883.
+1746625180: Opening ipv6 listen socket on port 1883.
+1746625180: mosquitto version 2.0.21 running
+1746625181: New connection from 172.20.0.1:59862 on port 1883.
+1746625181: New client connected from 172.20.0.1:59862 as mqtt-explorer-e07af06d (p2, c1, k60).
+1746625181: No will message specified.
+1746625181: Sending CONNACK to mqtt-explorer-e07af06d (0, 0)
+1746625219: mosquitto version 2.0.21 terminating
+1746625219: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1746625591: mosquitto version 2.0.21 starting
+1746625591: Config loaded from /mosquitto/config/mosquitto.conf.
+1746625591: Opening ipv4 listen socket on port 1883.
+1746625591: Opening ipv6 listen socket on port 1883.
+1746625591: mosquitto version 2.0.21 running
+1746625592: New connection from 172.20.0.1:48274 on port 1883.
+1746625592: New client connected from 172.20.0.1:48274 as mqtt-explorer-e07af06d (p2, c1, k60).
+1746625592: No will message specified.
+1746625592: Sending CONNACK to mqtt-explorer-e07af06d (0, 0)
+1746625614: New connection from 172.20.0.4:49988 on port 1883.
+1746625614: New client connected from 172.20.0.4:49988 as iot-platform-backend-client  (p2, c1, k60).
+1746625614: No will message specified.
+1746625614: Sending CONNACK to iot-platform-backend-client  (0, 0)
+1746625615: Received SUBSCRIBE from iot-platform-backend-client 
+1746625615: 	sensors/+/data (QoS 1)
+1746625615: iot-platform-backend-client  1 sensors/+/data
+1746625615: Sending SUBACK to iot-platform-backend-client 
+1746625652: Received PINGREQ from mqtt-explorer-e07af06d
+1746625652: Sending PINGRESP to mqtt-explorer-e07af06d
+1746625675: Received PINGREQ from iot-platform-backend-client 
+1746625675: Sending PINGRESP to iot-platform-backend-client 
+1746625712: Received PINGREQ from mqtt-explorer-e07af06d
+1746625712: Sending PINGRESP to mqtt-explorer-e07af06d
+1746625735: Received PINGREQ from iot-platform-backend-client 
+1746625735: Sending PINGRESP to iot-platform-backend-client 
+1746625772: Received PINGREQ from mqtt-explorer-e07af06d
+1746625772: Sending PINGRESP to mqtt-explorer-e07af06d
+1746625795: Received PINGREQ from iot-platform-backend-client 
+1746625795: Sending PINGRESP to iot-platform-backend-client 
+1746625832: Received PINGREQ from mqtt-explorer-e07af06d
+1746625832: Sending PINGRESP to mqtt-explorer-e07af06d
+1746625855: Received PINGREQ from iot-platform-backend-client 
+1746625855: Sending PINGRESP to iot-platform-backend-client 
+1746625892: Received PINGREQ from mqtt-explorer-e07af06d
+1746625892: Sending PINGRESP to mqtt-explorer-e07af06d
+1746625915: Received PINGREQ from iot-platform-backend-client 
+1746625915: Sending PINGRESP to iot-platform-backend-client 
+1746625952: Received PINGREQ from mqtt-explorer-e07af06d
+1746625952: Sending PINGRESP to mqtt-explorer-e07af06d
+1746625975: Received PINGREQ from iot-platform-backend-client 
+1746625975: Sending PINGRESP to iot-platform-backend-client 
+1746626012: Received PINGREQ from mqtt-explorer-e07af06d
+1746626012: Sending PINGRESP to mqtt-explorer-e07af06d
+1746626035: Received PINGREQ from iot-platform-backend-client 
+1746626035: Sending PINGRESP to iot-platform-backend-client 
+1746626072: Received PINGREQ from mqtt-explorer-e07af06d
+1746626072: Sending PINGRESP to mqtt-explorer-e07af06d
+1746626095: Received PINGREQ from iot-platform-backend-client 
+1746626095: Sending PINGRESP to iot-platform-backend-client 
+1746626132: Received PINGREQ from mqtt-explorer-e07af06d
+1746626132: Sending PINGRESP to mqtt-explorer-e07af06d
+1746626155: Received PINGREQ from iot-platform-backend-client 
+1746626155: Sending PINGRESP to iot-platform-backend-client 
+1746626192: Received PINGREQ from mqtt-explorer-e07af06d
+1746626192: Sending PINGRESP to mqtt-explorer-e07af06d
+1746626215: Received PINGREQ from iot-platform-backend-client 
+1746626215: Sending PINGRESP to iot-platform-backend-client 
+1746626252: Received PINGREQ from mqtt-explorer-e07af06d
+1746626252: Sending PINGRESP to mqtt-explorer-e07af06d
+1746626275: Received PINGREQ from iot-platform-backend-client 
+1746626275: Sending PINGRESP to iot-platform-backend-client 
+1746626312: Received PINGREQ from mqtt-explorer-e07af06d
+1746626312: Sending PINGRESP to mqtt-explorer-e07af06d
+1746626335: Received PINGREQ from iot-platform-backend-client 
+1746626335: Sending PINGRESP to iot-platform-backend-client 
+1746626372: Received PINGREQ from mqtt-explorer-e07af06d
+1746626372: Sending PINGRESP to mqtt-explorer-e07af06d
+1746626395: Received PINGREQ from iot-platform-backend-client 
+1746626395: Sending PINGRESP to iot-platform-backend-client 
+1746626432: Received PINGREQ from mqtt-explorer-e07af06d
+1746626432: Sending PINGRESP to mqtt-explorer-e07af06d
+1746626455: Received PINGREQ from iot-platform-backend-client 
+1746626455: Sending PINGRESP to iot-platform-backend-client 
+1746626492: Received PINGREQ from mqtt-explorer-e07af06d
+1746626492: Sending PINGRESP to mqtt-explorer-e07af06d
+1746626515: Received PINGREQ from iot-platform-backend-client 
+1746626515: Sending PINGRESP to iot-platform-backend-client 
+1746626552: Received PINGREQ from mqtt-explorer-e07af06d
+1746626552: Sending PINGRESP to mqtt-explorer-e07af06d
+1746626575: Received PINGREQ from iot-platform-backend-client 
+1746626575: Sending PINGRESP to iot-platform-backend-client 
+1746626612: Received PINGREQ from mqtt-explorer-e07af06d
+1746626612: Sending PINGRESP to mqtt-explorer-e07af06d
+1746626635: Received PINGREQ from iot-platform-backend-client 
+1746626635: Sending PINGRESP to iot-platform-backend-client 
+1746626672: Received PINGREQ from mqtt-explorer-e07af06d
+1746626672: Sending PINGRESP to mqtt-explorer-e07af06d
+1746626695: Received PINGREQ from iot-platform-backend-client 
+1746626695: Sending PINGRESP to iot-platform-backend-client 
+1746626732: Received PINGREQ from mqtt-explorer-e07af06d
+1746626732: Sending PINGRESP to mqtt-explorer-e07af06d
+1746626755: Received PINGREQ from iot-platform-backend-client 
+1746626755: Sending PINGRESP to iot-platform-backend-client 
+1746626792: Received PINGREQ from mqtt-explorer-e07af06d
+1746626792: Sending PINGRESP to mqtt-explorer-e07af06d
+1746626815: Received PINGREQ from iot-platform-backend-client 
+1746626815: Sending PINGRESP to iot-platform-backend-client 
+1746626852: Received PINGREQ from mqtt-explorer-e07af06d
+1746626852: Sending PINGRESP to mqtt-explorer-e07af06d
+1746626875: Received PINGREQ from iot-platform-backend-client 
+1746626875: Sending PINGRESP to iot-platform-backend-client 
+1746626895: Received DISCONNECT from iot-platform-backend-client 
+1746626895: Client iot-platform-backend-client  disconnected.
+1746626898: mosquitto version 2.0.21 terminating
+1746626898: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1746627267: mosquitto version 2.0.21 starting
+1746627267: Config loaded from /mosquitto/config/mosquitto.conf.
+1746627267: Opening ipv4 listen socket on port 1883.
+1746627267: Opening ipv6 listen socket on port 1883.
+1746627267: mosquitto version 2.0.21 running
+1746627268: New connection from 172.20.0.1:47820 on port 1883.
+1746627268: New client connected from 172.20.0.1:47820 as mqtt-explorer-e07af06d (p2, c1, k60).
+1746627268: No will message specified.
+1746627268: Sending CONNACK to mqtt-explorer-e07af06d (0, 0)
+1746627289: New connection from 172.20.0.4:56716 on port 1883.
+1746627290: New client connected from 172.20.0.4:56716 as iot-platform-backend-client  (p2, c1, k60).
+1746627290: No will message specified.
+1746627290: Sending CONNACK to iot-platform-backend-client  (0, 0)
+1746627291: Received SUBSCRIBE from iot-platform-backend-client 
+1746627291: 	sensors/+/data (QoS 1)
+1746627291: iot-platform-backend-client  1 sensors/+/data
+1746627291: Sending SUBACK to iot-platform-backend-client 
+1746627328: Received PINGREQ from mqtt-explorer-e07af06d
+1746627328: Sending PINGRESP to mqtt-explorer-e07af06d
+1746627351: Received PINGREQ from iot-platform-backend-client 
+1746627351: Sending PINGRESP to iot-platform-backend-client 
+1746627388: Received PINGREQ from mqtt-explorer-e07af06d
+1746627388: Sending PINGRESP to mqtt-explorer-e07af06d
+1746627411: Received PINGREQ from iot-platform-backend-client 
+1746627411: Sending PINGRESP to iot-platform-backend-client 
+1746627448: Received PINGREQ from mqtt-explorer-e07af06d
+1746627448: Sending PINGRESP to mqtt-explorer-e07af06d
+1746627471: Received PINGREQ from iot-platform-backend-client 
+1746627471: Sending PINGRESP to iot-platform-backend-client 
+1746627508: Received PINGREQ from mqtt-explorer-e07af06d
+1746627508: Sending PINGRESP to mqtt-explorer-e07af06d
+1746627531: Received PINGREQ from iot-platform-backend-client 
+1746627531: Sending PINGRESP to iot-platform-backend-client 
+1746627568: Received PINGREQ from mqtt-explorer-e07af06d
+1746627568: Sending PINGRESP to mqtt-explorer-e07af06d
+1746627591: Received PINGREQ from iot-platform-backend-client 
+1746627591: Sending PINGRESP to iot-platform-backend-client 
+1746627628: Received PINGREQ from mqtt-explorer-e07af06d
+1746627628: Sending PINGRESP to mqtt-explorer-e07af06d
+1746627651: Received PINGREQ from iot-platform-backend-client 
+1746627651: Sending PINGRESP to iot-platform-backend-client 
+1746627688: Received PINGREQ from mqtt-explorer-e07af06d
+1746627688: Sending PINGRESP to mqtt-explorer-e07af06d
+1746627711: Received PINGREQ from iot-platform-backend-client 
+1746627711: Sending PINGRESP to iot-platform-backend-client 
+1746627748: Received PINGREQ from mqtt-explorer-e07af06d
+1746627748: Sending PINGRESP to mqtt-explorer-e07af06d
+1746627771: Received PINGREQ from iot-platform-backend-client 
+1746627771: Sending PINGRESP to iot-platform-backend-client 
+1746627808: Received PINGREQ from mqtt-explorer-e07af06d
+1746627808: Sending PINGRESP to mqtt-explorer-e07af06d
+1746627831: Received PINGREQ from iot-platform-backend-client 
+1746627831: Sending PINGRESP to iot-platform-backend-client 
+1746627868: Received PINGREQ from mqtt-explorer-e07af06d
+1746627868: Sending PINGRESP to mqtt-explorer-e07af06d
+1746627891: Received PINGREQ from iot-platform-backend-client 
+1746627891: Sending PINGRESP to iot-platform-backend-client 
+1746627928: Received PINGREQ from mqtt-explorer-e07af06d
+1746627928: Sending PINGRESP to mqtt-explorer-e07af06d
+1746627951: Received PINGREQ from iot-platform-backend-client 
+1746627951: Sending PINGRESP to iot-platform-backend-client 
+1746627988: Received PINGREQ from mqtt-explorer-e07af06d
+1746627988: Sending PINGRESP to mqtt-explorer-e07af06d
+1746628011: Received PINGREQ from iot-platform-backend-client 
+1746628011: Sending PINGRESP to iot-platform-backend-client 
+1746628048: Received PINGREQ from mqtt-explorer-e07af06d
+1746628048: Sending PINGRESP to mqtt-explorer-e07af06d
+1746628071: Received PINGREQ from iot-platform-backend-client 
+1746628071: Sending PINGRESP to iot-platform-backend-client 
+1746628108: Received PINGREQ from mqtt-explorer-e07af06d
+1746628108: Sending PINGRESP to mqtt-explorer-e07af06d
+1746628131: Received PINGREQ from iot-platform-backend-client 
+1746628131: Sending PINGRESP to iot-platform-backend-client 
+1746628168: Received PINGREQ from mqtt-explorer-e07af06d
+1746628168: Sending PINGRESP to mqtt-explorer-e07af06d
+1746628191: Received PINGREQ from iot-platform-backend-client 
+1746628191: Sending PINGRESP to iot-platform-backend-client 
+1746628228: Received PINGREQ from mqtt-explorer-e07af06d
+1746628228: Sending PINGRESP to mqtt-explorer-e07af06d
+1746628251: Received PINGREQ from iot-platform-backend-client 
+1746628251: Sending PINGRESP to iot-platform-backend-client 
+1746628288: Received PINGREQ from mqtt-explorer-e07af06d
+1746628288: Sending PINGRESP to mqtt-explorer-e07af06d
+1746628311: Received PINGREQ from iot-platform-backend-client 
+1746628311: Sending PINGRESP to iot-platform-backend-client 
+1746628348: Received PINGREQ from mqtt-explorer-e07af06d
+1746628348: Sending PINGRESP to mqtt-explorer-e07af06d
+1746628371: Received PINGREQ from iot-platform-backend-client 
+1746628371: Sending PINGRESP to iot-platform-backend-client 
+1746628408: Received PINGREQ from mqtt-explorer-e07af06d
+1746628408: Sending PINGRESP to mqtt-explorer-e07af06d
+1746628431: Received PINGREQ from iot-platform-backend-client 
+1746628431: Sending PINGRESP to iot-platform-backend-client 
+1746628468: Received PINGREQ from mqtt-explorer-e07af06d
+1746628468: Sending PINGRESP to mqtt-explorer-e07af06d
+1746628491: Received PINGREQ from iot-platform-backend-client 
+1746628491: Sending PINGRESP to iot-platform-backend-client 
+1746628528: Received PINGREQ from mqtt-explorer-e07af06d
+1746628528: Sending PINGRESP to mqtt-explorer-e07af06d
+1746628551: Received PINGREQ from iot-platform-backend-client 
+1746628551: Sending PINGRESP to iot-platform-backend-client 
+1746628588: Received PINGREQ from mqtt-explorer-e07af06d
+1746628588: Sending PINGRESP to mqtt-explorer-e07af06d
+1746628611: Received PINGREQ from iot-platform-backend-client 
+1746628611: Sending PINGRESP to iot-platform-backend-client 
+1746628648: Received PINGREQ from mqtt-explorer-e07af06d
+1746628648: Sending PINGRESP to mqtt-explorer-e07af06d
+1746628671: Received PINGREQ from iot-platform-backend-client 
+1746628671: Sending PINGRESP to iot-platform-backend-client 
+1746628708: Received PINGREQ from mqtt-explorer-e07af06d
+1746628708: Sending PINGRESP to mqtt-explorer-e07af06d
+1746628731: Received PINGREQ from iot-platform-backend-client 
+1746628731: Sending PINGRESP to iot-platform-backend-client 
+1746628768: Received PINGREQ from mqtt-explorer-e07af06d
+1746628768: Sending PINGRESP to mqtt-explorer-e07af06d
+1746628791: Received PINGREQ from iot-platform-backend-client 
+1746628791: Sending PINGRESP to iot-platform-backend-client 
+1746628828: Received PINGREQ from mqtt-explorer-e07af06d
+1746628828: Sending PINGRESP to mqtt-explorer-e07af06d
+1746628851: Received PINGREQ from iot-platform-backend-client 
+1746628851: Sending PINGRESP to iot-platform-backend-client 
+1746628888: Received PINGREQ from mqtt-explorer-e07af06d
+1746628888: Sending PINGRESP to mqtt-explorer-e07af06d
+1746628911: Received PINGREQ from iot-platform-backend-client 
+1746628911: Sending PINGRESP to iot-platform-backend-client 
+1746628948: Received PINGREQ from mqtt-explorer-e07af06d
+1746628948: Sending PINGRESP to mqtt-explorer-e07af06d
+1746628971: Received PINGREQ from iot-platform-backend-client 
+1746628971: Sending PINGRESP to iot-platform-backend-client 
+1746629008: Received PINGREQ from mqtt-explorer-e07af06d
+1746629008: Sending PINGRESP to mqtt-explorer-e07af06d
+1746629031: Received PINGREQ from iot-platform-backend-client 
+1746629031: Sending PINGRESP to iot-platform-backend-client 
+1746629068: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1746629068: Received PINGREQ from mqtt-explorer-e07af06d
+1746629068: Sending PINGRESP to mqtt-explorer-e07af06d
+1746629091: Received PINGREQ from iot-platform-backend-client 
+1746629091: Sending PINGRESP to iot-platform-backend-client 
+1746629128: Received PINGREQ from mqtt-explorer-e07af06d
+1746629128: Sending PINGRESP to mqtt-explorer-e07af06d
+1746629151: Received PINGREQ from iot-platform-backend-client 
+1746629151: Sending PINGRESP to iot-platform-backend-client 
+1746629188: Received PINGREQ from mqtt-explorer-e07af06d
+1746629188: Sending PINGRESP to mqtt-explorer-e07af06d
+1746629211: Received PINGREQ from iot-platform-backend-client 
+1746629211: Sending PINGRESP to iot-platform-backend-client 
+1746629248: Received PINGREQ from mqtt-explorer-e07af06d
+1746629248: Sending PINGRESP to mqtt-explorer-e07af06d
+1746629271: Received PINGREQ from iot-platform-backend-client 
+1746629271: Sending PINGRESP to iot-platform-backend-client 
+1746629308: Received PINGREQ from mqtt-explorer-e07af06d
+1746629308: Sending PINGRESP to mqtt-explorer-e07af06d
+1746629331: Received PINGREQ from iot-platform-backend-client 
+1746629331: Sending PINGRESP to iot-platform-backend-client 
+1746629368: Received PINGREQ from mqtt-explorer-e07af06d
+1746629368: Sending PINGRESP to mqtt-explorer-e07af06d
+1746629391: Received PINGREQ from iot-platform-backend-client 
+1746629391: Sending PINGRESP to iot-platform-backend-client 
