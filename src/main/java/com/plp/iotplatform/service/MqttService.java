@@ -1,11 +1,10 @@
 package com.plp.iotplatform.service;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.plp.iotplatform.model.MqttMessage;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.eclipse.paho.client.mqttv3.MqttClient;
 import org.eclipse.paho.client.mqttv3.MqttException;
+import org.eclipse.paho.client.mqttv3.MqttMessage;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
@@ -17,13 +16,13 @@ import java.util.regex.Pattern;
 
 @Slf4j
 @Service
-@RequiredArgsConstructor // Ajoute automatiquement InfluxDBService au constructeur
+@RequiredArgsConstructor
 public class MqttService {
 
-    @Value("${mqtt.topic.sensor-data}") // Doit être "sensors/+/data"
+    @Value("${mqtt.subscription.data-topic-pattern}") // Ex: "hubs/+/send/+/+"
     private String sensorTopicPattern;
 
-    private static final Pattern SENSOR_ID_PATTERN = Pattern.compile("sensors/([^/]+)/data");
+    private static final Pattern SENSOR_ID_PATTERN = Pattern.compile("^hubs/([^/]+)/send/([^/]+)/([^/]+)$");
 
     private final MqttClient mqttClient;
 
@@ -47,14 +46,11 @@ public class MqttService {
                         String sensorId = matcher.group(1); // Le groupe 1 contient ce qui est entre parenthèses dans le Pattern
                         log.info("Extracted sensorId: {}", sensorId);
 
-                        log.info("Attempting to write to InfluxDB for sensor: {}", sensorId);
-                        log.info("Successfully wrote to InfluxDB for sensor: {}", sensorId);
-
                     } else {
                         log.warn("Received message on topic '{}' which does not match the expected pattern '{}'. Cannot extract sensorId.", topic, SENSOR_ID_PATTERN.pattern());
                     }
 
-                    MqttMessage mqttMessage = new MqttMessage(value, System.currentTimeMillis());
+                    MqttMessage mqttMessage = new MqttMessage();
                     synchronized (latestMessages) {
                         latestMessages.add(0, mqttMessage);
                         if (latestMessages.size() > MAX_MESSAGES) {

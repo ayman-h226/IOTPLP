@@ -1,17 +1,19 @@
 package com.plp.iotplatform.service;
 
-import com.plp.iotplatform.DTO.HubCreationRequestDto;
-import com.plp.iotplatform.DTO.HubDto; // Ou directement l'entité Hub pour le retour
-import com.plp.iotplatform.model.entity.Hub;
+import com.plp.iotplatform.dto.HubCreationRequestDto;
+import com.plp.iotplatform.dto.HubDto;
+import com.plp.iotplatform.dto.HubUpdateRequestDto;
+import com.plp.iotplatform.enums.HubStatus;
+
 import java.util.List;
-import java.util.Optional;
 
 public interface HubService {
-    Hub createHub(HubCreationRequestDto request);
-    List<Hub> getAllHubs();
-    Optional<Hub> getHubById(String hubId);
-    Optional<Hub> getHubByMacAddress(String macAddress);
-    Hub updateHub(String hubId, HubCreationRequestDto request); // Pour la mise à jour
+    HubDto createHub(HubCreationRequestDto request);
+    List<HubDto> getAllHubs();
+    HubDto getHubDtoById(String hubId); // Renvoie DTO
+    HubDto updateHub(String hubId, HubUpdateRequestDto request);
     void deleteHub(String hubId);
-    // Plus tard: méthodes pour statut, crédentials, etc.
+    HubDto validateHub(String hubId);
+    void rejectHub(String hubId); // Décide de supprimer ou marquer comme rejeté
+    List<HubDto> getHubsByStatus(HubStatus status);
 }
