@@ -1,4 +1,4 @@
-package com.plp.iotplatform.DTO;
+package com.plp.iotplatform.dto;
 
 import lombok.Data;
 import java.time.Instant;
@@ -12,7 +12,9 @@ public class SensorDto {
     private String model;
     private String unit;
     private String description;
-    private String status;
-    private String hubId; // Juste l'ID du hub parent
+    private String status; // PENDING_VALIDATION, ACTIVE, INACTIVE, OFFLINE
+    private String hubId;
+    private String hubName; // Ajouter le nom du hub pour info
     private Instant createdAt;
+    private Instant lastDataReceivedAt;
 }
